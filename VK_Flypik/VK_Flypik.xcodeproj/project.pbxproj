@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		329AF1A013A76C7F17BDE5FC /* Pods_VK_Flypik.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1601E2968B9C61A15FDE540C /* Pods_VK_Flypik.framework */; };
+		CE491F0323D4D9ED004EE5A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE491F0223D4D9ED004EE5A1 /* AppDelegate.swift */; };
+		CE491F0523D4D9ED004EE5A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE491F0423D4D9ED004EE5A1 /* SceneDelegate.swift */; };
+		CE491F0723D4D9ED004EE5A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE491F0623D4D9ED004EE5A1 /* ViewController.swift */; };
+		CE491F0A23D4D9ED004EE5A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE491F0823D4D9ED004EE5A1 /* Main.storyboard */; };
+		CE491F0C23D4D9EF004EE5A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE491F0B23D4D9EF004EE5A1 /* Assets.xcassets */; };
+		CE491F0F23D4D9EF004EE5A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE491F0D23D4D9EF004EE5A1 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1601E2968B9C61A15FDE540C /* Pods_VK_Flypik.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VK_Flypik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D784B36733F6032E35C259B /* Pods-VK_Flypik.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK_Flypik.debug.xcconfig"; path = "Target Support Files/Pods-VK_Flypik/Pods-VK_Flypik.debug.xcconfig"; sourceTree = "<group>"; };
+		BD5E40832B03231F6AF91CF6 /* Pods-VK_Flypik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VK_Flypik.release.xcconfig"; path = "Target Support Files/Pods-VK_Flypik/Pods-VK_Flypik.release.xcconfig"; sourceTree = "<group>"; };
+		CE491EFF23D4D9ED004EE5A1 /* VK_Flypik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VK_Flypik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE491F0223D4D9ED004EE5A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE491F0423D4D9ED004EE5A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE491F0623D4D9ED004EE5A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE491F0923D4D9ED004EE5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE491F0B23D4D9EF004EE5A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE491F0E23D4D9EF004EE5A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE491F1023D4D9EF004EE5A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE491EFC23D4D9ED004EE5A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329AF1A013A76C7F17BDE5FC /* Pods_VK_Flypik.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8C7CC559DAA86B165D2412F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1601E2968B9C61A15FDE540C /* Pods_VK_Flypik.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE491EF623D4D9ED004EE5A1 = {
+			isa = PBXGroup;
+			children = (
+				CE491F0123D4D9ED004EE5A1 /* VK_Flypik */,
+				CE491F0023D4D9ED004EE5A1 /* Products */,
+				D86B30230862033C1F5B0CFF /* Pods */,
+				A8C7CC559DAA86B165D2412F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE491F0023D4D9ED004EE5A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE491EFF23D4D9ED004EE5A1 /* VK_Flypik.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE491F0123D4D9ED004EE5A1 /* VK_Flypik */ = {
+			isa = PBXGroup;
+			children = (
+				CE491F0223D4D9ED004EE5A1 /* AppDelegate.swift */,
+				CE491F0423D4D9ED004EE5A1 /* SceneDelegate.swift */,
+				CE491F0623D4D9ED004EE5A1 /* ViewController.swift */,
+				CE491F0823D4D9ED004EE5A1 /* Main.storyboard */,
+				CE491F0B23D4D9EF004EE5A1 /* Assets.xcassets */,
+				CE491F0D23D4D9EF004EE5A1 /* LaunchScreen.storyboard */,
+				CE491F1023D4D9EF004EE5A1 /* Info.plist */,
+			);
+			path = VK_Flypik;
+			sourceTree = "<group>";
+		};
+		D86B30230862033C1F5B0CFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D784B36733F6032E35C259B /* Pods-VK_Flypik.debug.xcconfig */,
+				BD5E40832B03231F6AF91CF6 /* Pods-VK_Flypik.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE491EFE23D4D9ED004EE5A1 /* VK_Flypik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE491F1323D4D9EF004EE5A1 /* Build configuration list for PBXNativeTarget "VK_Flypik" */;
+			buildPhases = (
+				B79FB6BB89B13528BFB6CE76 /* [CP] Check Pods Manifest.lock */,
+				CE491EFB23D4D9ED004EE5A1 /* Sources */,
+				CE491EFC23D4D9ED004EE5A1 /* Frameworks */,
+				CE491EFD23D4D9ED004EE5A1 /* Resources */,
+				B77F650D61BEBC0772B134B8 /* [CP] Embed Pods Frameworks */,
+				CE491F1623D4DB04004EE5A1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VK_Flypik;
+			productName = VK_Flypik;
+			productReference = CE491EFF23D4D9ED004EE5A1 /* VK_Flypik.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE491EF723D4D9ED004EE5A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Denis Makovets";
+				TargetAttributes = {
+					CE491EFE23D4D9ED004EE5A1 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = CE491EFA23D4D9ED004EE5A1 /* Build configuration list for PBXProject "VK_Flypik" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE491EF623D4D9ED004EE5A1;
+			productRefGroup = CE491F0023D4D9ED004EE5A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE491EFE23D4D9ED004EE5A1 /* VK_Flypik */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE491EFD23D4D9ED004EE5A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE491F0F23D4D9EF004EE5A1 /* LaunchScreen.storyboard in Resources */,
+				CE491F0C23D4D9EF004EE5A1 /* Assets.xcassets in Resources */,
+				CE491F0A23D4D9ED004EE5A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B77F650D61BEBC0772B134B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VK_Flypik/Pods-VK_Flypik-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VK_Flypik/Pods-VK_Flypik-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VK_Flypik/Pods-VK_Flypik-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B79FB6BB89B13528BFB6CE76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VK_Flypik-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE491F1623D4DB04004EE5A1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/newInputFile",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE491EFB23D4D9ED004EE5A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE491F0723D4D9ED004EE5A1 /* ViewController.swift in Sources */,
+				CE491F0323D4D9ED004EE5A1 /* AppDelegate.swift in Sources */,
+				CE491F0523D4D9ED004EE5A1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE491F0823D4D9ED004EE5A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE491F0923D4D9ED004EE5A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE491F0D23D4D9EF004EE5A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE491F0E23D4D9EF004EE5A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE491F1123D4D9EF004EE5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE491F1223D4D9EF004EE5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE491F1423D4D9EF004EE5A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D784B36733F6032E35C259B /* Pods-VK_Flypik.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AX5Q84ZQGM;
+				INFOPLIST_FILE = VK_Flypik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Denis.VK-Flypik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE491F1523D4D9EF004EE5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD5E40832B03231F6AF91CF6 /* Pods-VK_Flypik.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AX5Q84ZQGM;
+				INFOPLIST_FILE = VK_Flypik/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Denis.VK-Flypik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE491EFA23D4D9ED004EE5A1 /* Build configuration list for PBXProject "VK_Flypik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE491F1123D4D9EF004EE5A1 /* Debug */,
+				CE491F1223D4D9EF004EE5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE491F1323D4D9EF004EE5A1 /* Build configuration list for PBXNativeTarget "VK_Flypik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE491F1423D4D9EF004EE5A1 /* Debug */,
+				CE491F1523D4D9EF004EE5A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE491EF723D4D9ED004EE5A1 /* Project object */;
+}
